@@ -1,0 +1,52 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+@media(max-width:858px){
+body{
+    background-color: #04202e;
+    width: 100%;
+    height: 100%;
+   
+    
+   
+}
+
+#toggle{
+    display: block;
+    float: right;
+    padding: 10px;
+    width: 50px;
+    cursor: pointer;
+    
+    
+}
+#chek{
+    display: none;
+}
+#tobar{
+    display:block;
+    width: 100px;
+    height: 100vh;
+    background-color: aquamarine;
+    align-items: center;
+    border: #ffffff;
+    position: relative;
+    left: -100%;
+    
+    
+  
+}
+ul{
+    
+   text-align: center;
+    line-height: 8vh;
+  
+}
+#chek:checked ~ #tobar {
+    left: 0;
+    transition:all .6s;
+}
+}
