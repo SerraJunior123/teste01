@@ -68,6 +68,13 @@ h1{
     color: #00397a;
     background-color: white;
 }
+#youtube:hover{
+
+    background-color: #00397a;
+    color: aliceblue;
+    box-shadow: -5px 5px white;
+    transition: all .2s;
+}
 #youtube{
     border-radius: 8px;
     box-shadow: -5px 5px #00397a ;
